@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+
+    <p>Silakan isi data berikut:</p>
+    
+    <form action="" method="GET">
+        <!-- Nama -->
+        <label for="nama">Nama : </label>
+        <input type="text" id="nama" name="nama" value="Siti Aisyah" required><br><br>
+
+        <!-- Jenis Kelamin (Radio Button) -->
+        <label>Jenis Kelamin : </label>
+        <input type="radio" id="jk_pria" name="jenkel" value="Laki-laki">
+        <label for="jk_pria">Laki-laki</label>
+        
+        <input type="radio" id="jk_wanita" name="jenkel" value="Perempuan" checked>
+        <label for="jk_wanita">Perempuan</label><br><br>
+
+        <!-- Username -->
+        <label for="username">Username : </label>
+        <input type="text" id="username" name="username" value="siti01" required><br><br>
+
+        <!-- Password (dengan minlength=8 untuk validasi panjang karakter) -->
+        <label for="password">Password : </label>
+        <input type="password" id="password" name="password" minlength="8" required><br><br>
+
+        <!-- Course yang Diikuti (Checkbox) -->
+        <label>Course yang Diikuti : </label>
+        <input type="checkbox" id="c_html" name="course" value="html">
+        <label for="c_html">HTML & CSS</label>
+        
+        <input type="checkbox" id="c_js" name="course" value="javascript" checked>
+        <label for="c_js">Javascript</label>
+        
+        <input type="checkbox" id="c_react" name="course" value="react" checked>
+        <label for="c_react">React JS</label>
+        
+        <input type="checkbox" id="c_node" name="course" value="node">
+        <label for="c_node">Node JS</label><br><br>
+
+        <!-- Tombol Simpan -->
+        <button type="submit">Simpan</button>
+    </form>
+
+</body>
+</html>

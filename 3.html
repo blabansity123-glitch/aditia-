@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulir Pengujian A</title>
+</head>
+<body>
+
+    <p>silahkan isi data berikut :</p>
+    
+    <!-- Form dengan method POST -->
+    <form action="" method="POST">
+        <!-- Nama -->
+        <label for="nama">Nama : </label>
+        <input type="text" id="nama" name="nama" value="Aditia Ardiansyah"><br><br>
+
+        <!-- Jenis Kelamin (Radio Button) -->
+        <label>Jenis Kelamin : </label>
+        <input type="radio" id="jk_pria" name="jenkel" value="Laki-laki" checked>
+        <label for="jk_pria">Laki-laki</label>
+        
+        <input type="radio" id="jk_wanita" name="jenkel" value="Perempuan">
+        <label for="jk_wanita">Perempuan</label><br><br>
+
+        <!-- Username -->
+        <label for="username">Username : </label>
+        <input type="text" id="username" name="username" value="thaariq"><br><br>
+
+        <!-- Password (menggunakan type="text" sesuai gambar agar terlihat jelas) -->
+        <label for="Password">Password : </label>
+        <input type="text" id="Password" name="Password" value="rahasia123"><br><br>
+
+        <!-- Course yang Diikuti (Checkbox tanpa explicit value, sehingga bernilai 'on') -->
+        <label>Course yang Diikuti : </label>
+        <input type="checkbox" id="html" name="html" checked>
+        <label for="html">HTML & CSS</label>
+        
+        <input type="checkbox" id="javascript" name="javascript" checked>
+        <label for="javascript">Javascript</label>
+        
+        <input type="checkbox" id="react" name="react">
+        <label for="react">React JS</label>
+        
+        <input type="checkbox" id="node" name="node">
+        <label for="node">Node JS</label><br><br>
+
+        <!-- Tombol Simpan -->
+        <button type="submit">Simpan</button>
+    </form>
+
+</body>
+</html>
